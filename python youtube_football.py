@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 
 nltk.download('stopwords')
 
-API_KEY = "AIzaSyBRxCynU1Ymg3LmXhzbSOwcj0-x6iQNgU8"
+API_KEY = "xxx"
 
 # ── 1. CONNECT TO YOUTUBE API ────────────────────────────────────
 youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=API_KEY)
